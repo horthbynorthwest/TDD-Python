@@ -1,2 +1,2 @@
 def vowel_count(str):
-    return len(str)
+    return sum(map(str.count, ['a','e', 'i', 'o', 'u']))
