@@ -14,3 +14,8 @@ def test_returns_middle_letter_of_a_three_letter_word():
     solution = middle_letter("hit")
 
     assert solution == "i"
+
+def test_returns_correct_letter_from_odd_string():
+    solution = middle_letter("testing")
+
+    assert solution == "t"
