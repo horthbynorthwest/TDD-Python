@@ -9,3 +9,8 @@ def test_returns_the_letters_of_a_two_letter_word():
     solution = middle_letter("it")
 
     assert solution == "it"
+
+def test_returns_middle_letter_of_a_three_letter_word():
+    solution = middle_letter("hit")
+
+    assert solution == "i"
