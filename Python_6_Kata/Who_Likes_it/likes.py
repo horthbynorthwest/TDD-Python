@@ -1,2 +1,2 @@
 def likes(names):
-    return "Peter likes this"
+    return names[0] + " likes this"
